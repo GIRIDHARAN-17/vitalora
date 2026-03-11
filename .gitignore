@@ -1,0 +1,289 @@
+# ==================== PYTHON ====================
+.venv/
+venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+
+# ==================== DATABASE ====================
+*.sqlite3
+*.sqlite
+*.db
+*.sqlite3-journal
+# MongoDB
+mongodb_data/
+
+
+# ==================== ML MODELS ====================
+# Keep model reference files but ignore large binary files
+backend/models/*.h5
+backend/models/*.save
+backend/models/*.pb
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/__pycache__/
+*.model
+*.onnx
+
+
+# ==================== NODE/FRONTEND ====================
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+dist/
+build/
+.next/
+out/
+.parcel-cache/
+.cache
+
+
+# ==================== FLUTTER/DART ====================
+# Miscellaneous
+*.class
+*.log
+*.lock
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be committed to version control
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+.flutter_plugins
+.flutter_plugins_dependencies
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Coverage
+coverage/
+lcov.info
+
+# Android build artifacts
+*.aar
+
+# iOS/macOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vscode/
+**/ios/**/xcuserdata/
+**/ios/**/Pods/
+**/ios/**/pods/
+**/ios/**/*.xcarchive
+**/ios/**/*.xcframework
+**/ios/**/.generated.xcconfig
+**/ios/**/*.jinja2
+**/ios/**/*Lock.json
+**/ios/**/GeneratedPluginRegistrant.*
+**/ios/**/Flutter/Flutter.podspec
+**/macos/**/*.mode1v3
+**/macos/**/*.mode2v3
+**/macos/**/*.moved-aside
+**/macos/**/*.pbxuser
+**/macos/**/*.perspectivev3
+**/macos/**/*sync/
+**/macos/**/.sconsign.dblite
+**/macos/**/.tags*
+**/macos/**/.vscode/
+**/macos/**/xcuserdata/
+**/macos/**/Pods/
+**/macos/**/pods/
+**/macos/**/*.xcarchive
+**/macos/**/*.xcframework
+
+# Web
+lib/generated_plugin_registrant.dart
+
+
+# ==================== IDE & EDITOR ====================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+*.sublime-workspace
+*.sublime-project
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+xcuserdata/
+*.pbxuser
+*.xcconfig
+
+# Android Studio
+.gradle/
+.idea/
+local.properties
+*.apk
+*.ap_
+*.aab
+
+# Vim
+.vim/
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+
+# ==================== OS-SPECIFIC ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+
+# ==================== PROJECT-SPECIFIC ====================
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Data files (large datasets)
+*.csv.bak
+*.xlsx.bak
+data/raw/
+
+# API Keys and Credentials
+.secrets/
+secrets/
+
+# System files
+.DS_Store
+*.swp
+
+# Backups
+*.backup
+*.bak
+*~
+
+# IDE specific for this project
+.cursor/
+.qodo/
+
+# Generated files
+backend/models/__pycache__/
+**/migrations/
+
+
+# ==================== MOBILE APP SPECIFIC ====================
+# Flutter
+.flutter/
+.packages
+pubspec.lock
+.dart_tool/
+.flutter_plugins
+.flutter_plugins_dependencies
+
+# Kotlin
+.gradle/
+build/
+*.apk
+*.aar
+
+# Swift
+Pods/
+Podfile.lock
+*.xcarchive
+
+
+# ==================== GIT ====================
+.git/
+.gitmodules
+.gitstats/
+
+
